@@ -1,0 +1,139 @@
+body{
+    margin: 0;
+    padding: 0;
+box-sizing: border-box;
+
+
+}
+.container{
+    width: 100%;
+    height: 500px;
+    overflow-y: scroll;
+
+}
+
+
+.list{
+width: 90%;
+height: 80px;
+display: inline-flex;
+margin: 2px;
+text-align: center;
+gap: 20px;
+font-family: 'canva sans', sans-serif;
+border: 1px solid  black;
+
+}
+
+.table-container .view{
+    margin: 20px 20px;
+    float: right;
+border: 2px solid black;
+border-radius: 20px;
+font-weight: bold;
+background-color:rgb(255, 200, 0);
+color:white;
+transition: .2s ease;
+}
+
+.table-container .view:hover{
+    background-color: aqua;
+    transform: translateY(10px) scale(1.2);
+
+}
+.table-container .view:active {
+    transform: translateY(10px) scale(2.2);
+}
+.table-container{
+    width: 99%;
+    height: 80%;
+    display: flex;
+}
+p{
+width: 100px;
+}
+
+.form-wrapper{
+    width: 900px;
+    height: 400px;
+    background-color: rgb(254, 171, 171);
+bottom: 5%;
+right: 5%;
+border: 5px solid black;
+border-radius: 20%;
+display: none;
+position: absolute;
+font-family: 'canva sans', sans-serif;
+
+}
+
+
+.layer1{
+    display: flex;
+    width: 100%;
+    height: 200px;
+align-items: center;
+justify-content: center;
+font-family: 'canva sans', sans-serif;
+margin-left: 20px;
+
+}
+.layer2{
+    display: flex;
+    width: 100%;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+    font-family: 'canva sans', sans-serif;
+}
+
+.item-container{
+    display: flex;
+    height: 60px;
+    margin-left: 20px;
+}
+.item-container2{
+    display: flex;
+    margin-top: 70px;
+    margin-left: 20px;
+}
+.item-wrapper{
+    width: 50%;
+}
+.item-wrapper1{
+    margin-left: 20px; 
+     width: 30%;
+
+}
+.item-wrapper2{
+    margin-left: 20px; 
+     width: 30%;
+     margin-top: 15px;
+}
+.divide{
+    width: 30%;
+   margin-left:20px;
+    height: 0;
+    margin-bottom: 10px;
+}
+
+.close{
+position: absolute;
+margin-top: 5px;
+}
+
+#return1 {
+    float: right;
+    margin: 20px;
+    background-color: chocolate;
+    transition: 2s ease;
+}
+
+#return1:hover {
+    background-color: aqua;
+}
+
+div {
+    font-family: 'canva sans', sans-serif;
+}
+

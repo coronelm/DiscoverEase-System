@@ -1,0 +1,171 @@
+body{
+    margin: 0;
+    padding: 0;
+box-sizing: border-box;
+
+
+}
+.container{
+    width: 100%;
+    height: 500px;
+    overflow-y: scroll;
+
+}
+
+
+.list{
+width: 90%;
+height: 80px;
+display: inline-flex;
+margin: 2px;
+text-align: center;
+gap: 20px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+border: 1px solid  black;
+
+}
+
+.table-container .view{
+    margin: 20px 20px;
+    float: right;
+border: 2px solid black;
+border-radius: 20px;
+font-weight: bold;
+background-color:rgb(255, 200, 0);
+color:white;
+transition: .2s ease;
+}
+
+.table-container .view:hover{
+    background-color: aqua;
+    transform: translateY(10px) scale(1.2);
+
+}
+.table-container .view:active {
+    transform: translateY(10px) scale(2.2);
+}
+.table-container{
+    width: 99%;
+    height: 80%;
+    display: flex;
+}
+p{
+width: 100px;
+}
+
+.form-wrapper{
+    width: 900px;
+    height: 400px;
+    background-color: #ffc2c2;
+bottom: 5%;
+right: 5%;
+border: 5px solid black;
+border-radius: 20%;
+position: absolute;
+display: none;
+}
+
+.form-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.layer1{
+    width: 100%;
+    height: 100%;
+text-align: left;
+margin-top: 50px;
+margin-right: 100px;
+
+}
+.layer2{
+    display: flex;
+    width: 100%;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+    margin-right: 50px;
+    margin-top: 50px;
+}
+
+.item-container1{
+    display: flex;
+}
+.item-container{
+    width: 200px;
+    height: 200px;
+    margin-left: 80px;
+    margin-top: 70px;
+    border: 2px solid black;
+    
+}
+.item-container2{
+    display: flex;
+    margin-top: 70px;
+    margin-left: 20px;
+}
+.item-wrapper{
+    width: 50%;
+}
+.item-wrapper1{
+    margin-left: 20px; 
+     width: 30%;
+
+}
+.item-wrapper2{
+    margin-left: 20px; 
+     width: 30%;
+     margin-top: 15px;
+}
+.divide{
+    width: 30%;
+   margin-left:20px;
+    height: 0;
+    margin-bottom: 10px;
+}
+
+.close{
+position: absolute;
+}
+
+#return1 {
+    float: right;
+    margin: 20px;
+    background-color: chocolate;
+    transition: 2s ease;
+    font-family: 'canva sans', sans-serif;
+}
+
+#return1:hover {
+    background-color: aqua;
+    font-family: 'canva sans', sans-serif;
+}
+
+  /* Add this style for the form wrapper */
+  .form-wrapper {
+    font-family: 'canva sans', sans-serif;
+  }
+
+  /* Add this style for the form elements inside the form wrapper */
+  .form-container label,
+  .form-container span {
+    font-family: 'canva sans', sans-serif;
+  }
+
+  /* Add this style for the h1 and h2 elements inside the form wrapper */
+  .form-container h1,
+  .form-container h2 {
+    font-family: 'canva sans', sans-serif;
+  }
+
+  /* Add this style for the select element inside the form wrapper */
+  .form-container select {
+    font-family: 'canva sans', sans-serif;
+  }
+
+  /* Add this style for the submit button inside the form wrapper */
+  .form-container input[type="submit"] {
+    font-family: 'canva sans', sans-serif;
+  }
+
